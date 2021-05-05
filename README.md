@@ -1,1 +1,3 @@
-# Currencty-Converter
+# Currencty Converter
+
+## Demo
