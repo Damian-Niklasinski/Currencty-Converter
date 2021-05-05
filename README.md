@@ -22,5 +22,5 @@ Here you can convert PLN to:
 ## How to use?
 
 1. Type a number in the PLN field.
-2. Click "Przelicz!" to get the resultt.
+2. Click "Przelicz!" to get the result.
 3. If u want to reset the Form click "Wyczyść!"
