@@ -1,4 +1,8 @@
 {
+  const welcome = () => {
+    console.log("Hej! Tutaj możesz przeliczyć waluty.");
+  }
+
   const calculateResult = () => {
 
     const plnElement = document.querySelector(".js-plnValue");
@@ -25,6 +29,8 @@
   const init = () => { 
     const formElement = document.querySelector(".js-form");  
     formElement.addEventListener("submit", onFormSubmit);
+
+    welcome();
   };
 
  init();
