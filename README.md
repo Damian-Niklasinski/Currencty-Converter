@@ -18,3 +18,9 @@ Here you can convert PLN to:
 - CSS
 - JS
 - ES6+
+
+## How to use?
+
+1. Type a number in the PLN field.
+2. Click "Przelicz!" to get the resultt.
+3. If u want to reset the Form click "Wyczyść!"
