@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konwerter walut</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" />
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+
+    <form class="form js-form">
+        <h1 class="form__header">KALKULATOR WALUT</h1>
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">PRZELICZ Z</legend>
+            <p class="form__paragraph">
+                <label>
+                    <img class="form__flag"
+                        src="https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/255px-Flag_of_Poland.svg.png"
+                        alt="Polska flaga">
+                    PLN: <input class="form__value js-plnValue" name="PLN" placeholder="Ile mam złotych?" type="number"
+                        autofocus required>
+        </fieldset>
+        </label>
+        </p>
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">PRZELICZ NA</legend>
+            <p>
+                <label>
+                    <img class="form__flag"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/800px-Flag_of_Europe.svg.png"
+                        alt="Europejska Flaga"> EUR:<strong class="form__strong js-eurValue"> 0 €</strong>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <img class="form__flag"
+                        src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png"
+                        alt="Stany Zjednoczone"> USD:<strong class="form__strong js-usdValue"> 0 $</strong>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <img class="form__flag"
+                        src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png"
+                        alt="Wielka Brytania"> GBP:<strong class="form__strong js-gbpValue"> 0 £</strong>
+                </label>
+            </p>
+            <button class="form__button">Przelicz!</button>
+            <button class="form__button" type="reset">Wyczyść!</button>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
