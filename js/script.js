@@ -1,6 +1,4 @@
 {
-
-
   const calculateResult = () => {
 
     const plnElement = document.querySelector(".js-plnValue");
@@ -18,16 +16,17 @@
 
   };
 
-  const init = () => {
-    const formElement = document.querySelector(".js-form");
-    formElement.addEventListener("submit", (event) => {
-      event.preventDefault();
 
-      calculateResult();
+  const onFormSubmit = (event) => {
+    event.preventDefault();
+    calculateResult();
+  }
 
-    });
+  const init = () => { 
+    const formElement = document.querySelector(".js-form");  
+    formElement.addEventListener("submit", onFormSubmit);
   };
 
-  init();
+ init();
 
 };
