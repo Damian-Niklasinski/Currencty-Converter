@@ -12,3 +12,9 @@ Here you can convert PLN to:
 - USD
 - GBP
 
+## Technology used
+
+- HTML
+- CSS
+- JS
+- ES6+
